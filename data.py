@@ -40,6 +40,8 @@ def update(name,nhscore):
 #db.commit()
 #Anshu:- [shriyanshu,anshu123]
 #Shanu:-[shanu,manu]
+#Vaibhav[vaibhav,vaibhav]
+#aditya['aditya','adi123']
 
 
 

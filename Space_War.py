@@ -20,36 +20,36 @@ mu=0
 
 #Images
 icon_=transform.rotate(
-image.load('Assets\spaceship_red.png'),180)
+image.load(r'Assets/spaceship_red.png'),180)
 hero_i=transform.rotate(transform.scale(
-image.load('Assets\App-kspaceduel-spaceship-icon.png'),
+image.load(r'Assets/App-kspaceduel-spaceship-icon.png'),
 (100,100)),180)
 missile=transform.rotate(transform.scale(
-image.load('Assets\missile.png'),
+image.load(r'Assets/missile.png'),
 (32,32)),45)
 bullet=transform.rotate(transform.scale(
-image.load('Assets/bullet.png'),
+image.load(r'Assets/bullet.png'),
 (32,32)),180)
 wp=transform.scale(
-image.load(r'Assets\wp3205652.jpg'),(WD,HT))
+image.load(r'Assets/wp3205652.jpg'),(WD,HT))
 space1=transform.scale(
-image.load('Assets\photo-1570284613060-766c33850e00.jpeg'),(WD,HT))
+image.load(r'Assets/photo-1570284613060-766c33850e00.jpeg'),(WD,HT))
 space2=transform.scale(
-image.load('Assets\Space_purple.jpg'),(WD,HT))
+image.load(r'Assets/Space_purple.jpg'),(WD,HT))
 space3=transform.scale(
-image.load('Assets\photo-1502134249126-9f3755a50d78.jpeg'),(WD,HT))
+image.load(r'Assets/photo-1502134249126-9f3755a50d78.jpeg'),(WD,HT))
 space4=transform.scale(transform.rotate(
-image.load('Assets/529040.jpg'),90),(WD,HT))
+image.load(r'Assets/529040.jpg'),90),(WD,HT))
 
 enemy1=transform.scale(
-image.load('Assets\spaceship_red.png'),(64,64))
+image.load(r'Assets/spaceship_red.png'),(64,64))
 
 #Music
-mixer.music.load("Assets\cornfield_chase.mp3")
+mixer.music.load(r"Assets/cornfield_chase.mp3")
 mixer.music.set_volume(0.25)
 
-Hit_Sound=mixer.Sound("Assets\hit_sound.mp3")
-Fire_Sound=mixer.Sound('Assets\Gun_Sound.mp3')
+Hit_Sound=mixer.Sound(r"Assets/hit_sound.mp3")
+Fire_Sound=mixer.Sound(r'Assets/Gun_Sound.mp3')
 Hit_Sound.set_volume(0.5)
 Fire_Sound.set_volume(0.5)
 #Fonts
@@ -99,7 +99,7 @@ def values():
     iit=0
     Health=10
     max_enemy=2
-    Lives=5
+    Lives=10
     Score=0
     alpha=0
     beta=AMMO
